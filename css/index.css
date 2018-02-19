@@ -7,3 +7,8 @@ h2 {
 h3 {
   color: green;
 }
+p {
+  color: orange;
+  text-align: center;
+  text-size: 10px;
+}
