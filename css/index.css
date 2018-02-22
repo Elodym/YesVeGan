@@ -1,9 +1,6 @@
 h1 {
-  color: red;
+  color: black;
 }
-h2 {
-  color: blue;
-}
-h3 {
-  color: green;
+li {
+  display: inline;
 }
