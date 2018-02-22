@@ -1,7 +1,14 @@
 h1 {
   color: black;
 }
+h2 {
+  text-align: center;
+  padding: 20px;
+}
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
+}
+.shops {
+  text-align: center;
 }
