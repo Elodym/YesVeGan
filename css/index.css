@@ -1,13 +1,37 @@
 h1 {
-  color: black;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  font-size: 100px;
+  padding: 40px 0;
 }
 h2 {
   text-align: center;
   padding: 20px;
 }
+ul {
+  background-color: #ffff1a;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
 li {
   display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
+#background{
+  background: url("../images/sunflower2.jpg");
+  background-size: cover;
+  height: 400px;
+  padding: 10px;
 }
 .list-shops {
   text-align: center;
