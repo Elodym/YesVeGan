@@ -1,6 +1,13 @@
 h1{
   font-size: 30px;
 }
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  font-size: 25px;
+}
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
