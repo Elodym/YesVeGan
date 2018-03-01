@@ -7,7 +7,11 @@ h1 {
 }
 h2 {
   text-align: center;
-  padding: 20px;
+  padding: 24px;
+}
+h3 {
+  text-align: left;
+  font-size: 18px;
 }
 ul {
   background-color: #ffff1a;
@@ -23,19 +27,55 @@ li {
   color: black;
   font-family: 'PT Serif', serif;
 }
+
 p {
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   padding: 30px;
 }
-#background{
+#background {
   background: url("../images/sunflower2.jpg");
   background-size: cover;
   height: 400px;
   padding: 10px;
 }
-.list-shops {
-  text-align: center;
+
+dt.list-shops {
+  display: block;
+  text-align: left;
+  clear: left;
+  background-color: white;
   padding: 30px;
-  font-size: 16px;
+  font-size: 18px;
+}
+dd {
+  text-align: left;
+
+}
+
+h2.other {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  font-family: 'PT Serif', serif;
+  background-color: #ffff1a;
+  padding: 10px;
+  text-transform: uppercase;
+}
+p.other {
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+}
+#shops {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 40px;
+  padding: 0 20px;
+  margin: 18px 0 15px 0;
+  background: url("../images/infinity.jpg"), url("../images/hisbe.jpg"), url("../images/sunny.jpg"), url("../images/vegshoes.jpg"), url("../images/cowley.jpg");
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: top, left, center, right, bottom;
+
 }
