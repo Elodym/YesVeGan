@@ -74,8 +74,11 @@ p.other {
   padding: 0 20px;
   margin: 18px 0 15px 0;
   background: url("../images/infinity.jpg"), url("../images/hisbe.jpg"), url("../images/sunny.jpg"), url("../images/vegshoes.jpg"), url("../images/cowley.jpg");
-  background-size: 200px auto;
   background-repeat: no-repeat;
-  background-position: top, left, center, right, bottom;
-
+  background-position: float left;
+  background-origin: content-box;
+  background-size: 19%;
+  margin-right: 0.5%;
+  margin-bottom: 0.5em;
+  clear: both;
 }
