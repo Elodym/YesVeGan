@@ -68,17 +68,18 @@ p.other {
   padding: 5px;
 }
 #shops {
+  /*
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 40px;
   padding: 0 20px;
   margin: 18px 0 15px 0;
-  background: url("../images/infinity.jpg"), url("../images/hisbe.jpg"), url("../images/sunny.jpg"), url("../images/vegshoes.jpg"), url("../images/cowley.jpg");
-  background-repeat: no-repeat;
-  background-position: float left;
-  background-origin: content-box;
-  background-size: 19%;
+  */
+
+
+}
+#shops img {
+  width: 19%;
   margin-right: 0.5%;
   margin-bottom: 0.5em;
-  clear: both;
 }
