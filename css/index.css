@@ -27,7 +27,6 @@ li {
   color: black;
   font-family: 'PT Serif', serif;
 }
-
 p {
   font-size: 18px;
   text-align: center;
@@ -39,7 +38,6 @@ p {
   height: 400px;
   padding: 10px;
 }
-
 dt.list-shops {
   display: block;
   text-align: left;
@@ -50,9 +48,7 @@ dt.list-shops {
 }
 dd {
   text-align: left;
-
 }
-
 h2.other {
   font-weight: bold;
   font-size: 20px;
@@ -75,8 +71,6 @@ p.other {
   padding: 0 20px;
   margin: 18px 0 15px 0;
   */
-
-
 }
 #shops img {
   width: 19%;
