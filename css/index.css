@@ -84,3 +84,16 @@ padding: 0px:
   margin-bottom: 0.5em;
   margin-right: 0.5%;
 }
+.title a {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.form-inline {
+  padding: 20px;
+  margin: 10px;
+}
