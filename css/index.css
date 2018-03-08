@@ -1,9 +1,16 @@
+
+body {
+  height: 100%;
+  background: url("../images/greenbackg.jpeg") no-repeat center center fixed;
+  background-size:cover;
+}
+
 h1 {
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: none;
   text-align: center;
-  font-size: 100px;
-  padding: 40px 0;
+  font-size: 130px;
+  padding: 120px 0;
 }
 h2 {
   text-align: center;
@@ -14,9 +21,10 @@ h3 {
   font-size: 18px;
 }
 ul {
-  background-color: #ffff1a;
+  background-color: #FFFFFF;
+  opacity: 0.5;
   padding: 10px;
-  text-align: center;
+  text-align: right;
   margin: 0;
 }
 li {
@@ -24,19 +32,23 @@ li {
   padding: 0px 15px 0px 15px;
   font-weight: bold;
   font-size: 20px;
-  color: black;
-  font-family: 'PT Serif', serif;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
 }
+.biobox {
+  width: 50%;
+  margin: auto;
+  background:rgba(255,255,255,0.5);
+}
+
 p {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: serif;
+  color: black;
   text-align: center;
-  padding: 30px;
+  padding: 10px 20px 5px 20px;
 }
-#background {
-  background: url("../images/sunflower2.jpg");
-  background-size: cover;
-  height: 400px;
-  padding: 10px;
+
 }
 dt.list-shops {
   display: block;
@@ -64,16 +76,42 @@ p.other {
   padding: 5px;
 }
 #shops {
-  /*
-  color: white;
+margin-left: 30px;
+padding: 0px:
+
+}
+#shops a {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  color: white;
   font-size: 40px;
-  padding: 0 20px;
-  margin: 18px 0 15px 0;
-  */
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 #shops img {
-  width: 19%;
-  margin-right: 0.5%;
+  position: relative;
+  width: 230px;
+  height: 180px;
   margin-bottom: 0.5em;
+  margin-right: 0.5%;
+}
+.title a {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.form-inline {
+  padding: 20px;
+  margin: 10px;
+}
+.jumbotron {
+  background-image: url("../images/fruit-and-veg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
 }
