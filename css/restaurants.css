@@ -1,14 +1,16 @@
 body {
   font-family: 'Sumana', serif;
   line-height: 28px;
-  margin-left: 10px;
+  margin-left: 0;
+  margin-right: 0;
 }
 h1{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 40px;
+  font-weight: bold;
   padding: 0 20px;
-  margin: 18px 0 15px 0;
+  margin: 18px 0 8px 5px;
   font-family: auto;
 }
 ul {
@@ -21,45 +23,47 @@ li {
   display: inline;
   padding: 0px 15px 0px 15px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   color: black;
   font-family: 'PT Serif', serif;
 }
 h2 {
   font-size: 45px;
+  font-weight: bold;
   text-align: center;
   line-height: 150px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   font-family: auto;
 }
 h3 {
-  font-size: 28px;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 b {
-  font-size: 19px;
+  font-size: 21px;
 }
 #background {
   background: url("../images/brighton_background.jpg");
   background-size: cover;
-  height: 400px;
+  height: 430px;
   padding: 10px;
 }
 #intro {
   font-size: 23px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
   line-height: 30px;
 }
-.content {
-  margin: 0 5px 0 5px;
+.clearfix {
+  margin: 15px 20px 30px 20px;
+  font-size: 18px;
+  text-align: justify;
 }
 .left {
   float: left;
+  margin-right: 20px;
 }
 .right {
   float: right;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  margin-left: 20px;
 }
