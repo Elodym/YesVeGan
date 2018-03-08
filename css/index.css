@@ -1,11 +1,9 @@
 
-/* This is affecting every page. We need to fixed
-body {
+#container {
   height: 100%;
   background: url("../images/greenbackg.jpeg") no-repeat center center fixed;
   background-size:cover;
 }
-*/
 
 h1 {
   color: white;
