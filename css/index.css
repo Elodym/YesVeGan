@@ -2,7 +2,7 @@
 #container {
   height: 100%;
   background: url("../images/greenbackg.jpeg") no-repeat center center fixed;
-  background-size:cover;
+  background-size: cover;
 }
 
 h1 {
@@ -10,6 +10,7 @@ h1 {
   text-shadow: none;
   text-align: center;
   font-size: 130px;
+  font-family: 'Crimson Text', serif;
   padding: 120px 0;
 }
 h2 {
@@ -21,8 +22,10 @@ h3 {
   font-size: 18px;
 }
 ul {
-  background-color: #FFFFFF;
-  opacity: 0.5;
+  background-color: white;
+  opacity:0.5;
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
   padding: 10px;
   text-align: right;
   margin: 0;
@@ -39,14 +42,17 @@ li {
   width: 50%;
   margin: auto;
   background:rgba(255,255,255,0.5);
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,.8), rgba(255,255,255,.3));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,.8), rgba(255,255,255,.3));
 }
 
 p {
-  font-size: 20px;
-  font-family: serif;
+  font-size: 21px;
+  font-family: 'Lora', serif;
   color: black;
   text-align: center;
-  padding: 10px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
+
 }
 
 }
