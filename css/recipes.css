@@ -1,3 +1,45 @@
 body {
-  background:
+  background color: white;
+}
+ul {
+  background-color: rgba(255,255,255,0.5);
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
+  padding: 10px;
+  text-align: right;
+  margin: 0;
+}
+li /* for recipe here*/{
+  display: block;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  padding: 5px 30px 5px 30px;
+
+}
+.header {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+h1 {
+  color: rgba(0,0,0,1);
+  text-shadow: none;
+  text-align: center;
+  font-size: 80x;
+  font-family: 'Crimson Text', serif;
+
+}
+.recipes {
+  text align: margin-left;
+  background: rgba(255,255,255,1);
+  opacity: none;
+  text-align: margin-left;
+
+}
+
 }
