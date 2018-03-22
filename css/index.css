@@ -1,6 +1,7 @@
 
 #container {
-  height: 100%;
+  min-height: 100%;
+  min-width: 1024px;
   background: url("../images/greenbackg.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
@@ -54,6 +55,8 @@ p {
   color: black;
   text-align: center;
   padding: 10px 20px 10px 20px;
+  margin-top: -100px;
+  margin-bottom: 110px;
 
 }
 
