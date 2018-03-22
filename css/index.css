@@ -3,6 +3,7 @@
   height: 100%;
   background: url("../images/greenbackg.jpeg") no-repeat center center fixed;
   background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
   text-align: center;
   font-size: 130px;
   font-family: 'Crimson Text', serif;
-  padding: 120px 0;
+  padding: 120px 0px;
 }
 h2 {
   text-align: center;
@@ -41,6 +42,7 @@ li {
 .biobox {
   width: 50%;
   margin: auto;
+  padding-top: 0px;
   background:rgba(255,255,255,0.5);
   background: -webkit-linear-gradient(bottom, rgba(255,255,255,.8), rgba(255,255,255,.3));
   background: -moz-linear-gradient(bottom, rgba(255,255,255,.8), rgba(255,255,255,.3));
