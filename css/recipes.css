@@ -42,4 +42,9 @@ h1 {
 
 }
 
+.clearfix {
+  margin: 15px 20px 30px 20px;
+  font-size: 18px;
+  text-align: justify;
+
 }
