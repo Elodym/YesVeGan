@@ -48,3 +48,13 @@ h1 {
   text-align: justify;
 
 }
+
+.left {
+  float: left;
+  margin-right: 20px;
+}
+
+.right {
+  float: right;
+  margin-left: 20px;
+}
