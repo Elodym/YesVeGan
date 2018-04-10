@@ -22,12 +22,12 @@ ul {
 li /* for recipe here*/{
   display: block;
   display: list-item;
+  list-style-position: inside;
   font-size: 17px;
   color: rgba(0,0,0,1);
   font-family: 'Lato', sans-serif;
   text-align: left;
   padding: -30px 10px 15px 5px;
-
 
 }
 
