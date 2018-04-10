@@ -46,13 +46,13 @@ h2 {
   font-family: auto;
 }
 h3 {
-  font-size: 42px;
+  font-size: 100px;
   text-align: center;
-  margin: 30px 0 40px 0;
+  margin: 50px 0 30px 0;
   text-decoration: none;
   color: #272828;
   font-weight: bold;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Sacramento', cursive;
 }
 h4 {
   font-size: 50px;
