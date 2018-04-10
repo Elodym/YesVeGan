@@ -3,9 +3,9 @@ body {
 }
 
 .VegRecBakg {
-  background-image: url("../images/fruit-and-veg.jpg");
-  background-size: cover;
-  padding: 5px 10px 15px 10px;
+  background-image: url("../images/tide.jpg");
+  background-size: 100% auto;
+  padding: 20px 0px 20px 0px;
 }
 
 ul {
@@ -32,7 +32,7 @@ li /* for recipe here*/{
   padding: 0px 15px 0px 15px;
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h1 {
@@ -43,9 +43,9 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-weight: lighter;
   border-color: black;
-  border: 5px;
-  padding: 0px -10px 0px 10px;
-  margin: 10px;
+  border: 0px;
+  padding: 0px -10px 0px 0px;
+  margin: 40px;
 }
 
 h2 {
@@ -63,13 +63,10 @@ h4 {
 }
 
 h5 {
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 40px;
+  color: #000000;
+  font-size: 15px;
   font-weight: bold;
-  padding: 0 5px;
-  margin: 10px 0 8px 0px;
-  font-family: auto;
+  font-family: 'Lato', sans-serif;
 }
 a:link {
     text-decoration: none;
@@ -115,7 +112,7 @@ a:hover {
 }
 
 .IngredientsBox {
-  background-color: #FEE48D;
+  background-color: #f2eada;
   padding: 0px 20px 10px 50px;
   border: 6px solid black;
   border-radius: 0px;
