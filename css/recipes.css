@@ -66,8 +66,26 @@ h3 {
 h4 {
   font-family: 'Libre Baskerville', serif;
 }
-
+a:link {
+    text-decoration: none;
+    color: black;
 }
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+}
+
 .recipes {
   text align: margin-left;
   background: rgba(255,255,255,1);
