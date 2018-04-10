@@ -53,12 +53,6 @@ h4 {
 b {
   font-size: 21px;
 }
-#background {
-  background: url("../images/brighton_background.jpg");
-  background-size: cover;
-  height: 430px;
-  padding: 10px;
-}
 #mission {
   background-color: rgba(32, 35, 41, 0.9);
   color: #ddd;
