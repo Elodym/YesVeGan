@@ -64,6 +64,18 @@ b {
   color: #ddd;
   padding-bottom: 40px;
 }
+#social-buttons a:link {
+      text-decoration: none;
+      color: white;
+}
+#social-buttons a:visited {
+      text-decoration: none;
+      color: white;
+}
+#social-buttons a:hover {
+      text-decoration: none;
+      color: white;
+}
 .row {
   text-align: center;
 }
