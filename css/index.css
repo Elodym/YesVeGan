@@ -25,7 +25,7 @@ h3 {
 }
 ul {
   background-color: white;
-  opacity:0.5;
+  opacity: 0.5;
   background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
   background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
   padding: 10px;
@@ -60,39 +60,13 @@ p {
 
 }
 
-}
-dt.list-shops {
-  display: block;
-  text-align: left;
-  clear: left;
-  background-color: white;
-  padding: 30px;
-  font-size: 18px;
-}
-dd {
-  text-align: left;
-}
-h2.other {
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
-  font-family: 'PT Serif', serif;
-  background-color: #ffff1a;
-  padding: 10px;
-  text-transform: uppercase;
-}
-p.other {
-  text-align: left;
-  font-size: 18px;
-  padding: 5px;
-}
 #shops {
 margin-left: 30px;
 padding: 0px:
+
 }
-.shops {
-  padding: 0px;
-}
+
+
 #shops a {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-decoration: none;
@@ -102,6 +76,7 @@ padding: 0px:
   top: 20px;
   left: 10px;
 }
+
 #shops img {
   position: relative;
   width: 230px;
@@ -110,7 +85,67 @@ padding: 0px:
   margin-right: 0.5%;
 
 }
-.title a {
+
+h1.shops {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0 20px;
+  margin: 18px 0 18px 5px;
+  font-family: auto;
+
+}
+
+dl.list-shops {
+  display: block;
+  text-align: center;
+  clear: left;
+  background-color: white;
+  padding: 30px;
+  font-size: 18px;
+}
+dd {
+  text-align: center;
+}
+h2.other {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  font-family: 'PT Serif', serif;
+  background-color: #ffff1a;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 5px;
+}
+p.other {
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+}
+/*
+.shops {
+  padding: 0px;
+}
+*/
+ul.shops {
+  background-color: #ffff1a;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+li.shops {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  font-family: 'PT Serif', serif;
+}
+
+a.title {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-decoration: none;
   color: white;
@@ -129,4 +164,7 @@ padding: 0px:
   background-size: cover;
   background-attachment: fixed;
   min-height: 600px;
+}
+.other  {
+
 }
