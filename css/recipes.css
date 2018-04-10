@@ -1,5 +1,5 @@
 body {
-  background color: white;
+  background-image: url("C:\Users\Sophia\Documents\GitHub\YesVeGan\images\notebook.jpg")
 }
 ul {
   background-color: rgba(255,255,255,0.5);
@@ -31,7 +31,19 @@ h1 {
   text-shadow: none;
   text-align: center;
   font-size: 55px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Pacifico', cursive;
+  border-color: black;
+  border: 5px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+h2 {
+  color:rgba(0,0,0,1);
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+}
 
 }
 .recipes {
