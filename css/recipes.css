@@ -33,14 +33,15 @@ li /* for recipe here*/{
   font-weight: bold;
   font-size: 20px;
   font-family: 'Libre Baskerville', serif;
+
 }
 
 h1 {
-  color: #000000;
+  color: #0b121e;
   text-shadow: none;
   text-align: center;
-  font-size: 85px;
-  font-family: 'Sacramento', cursive;
+  font-size: 75px;
+  font-family: 'Libre Baskerville', serif;
   font-weight: bolder;
   border: 0px;
   padding: 0px 0px 0px 0px;
@@ -49,7 +50,7 @@ h1 {
 }
 
 h2 {
-  color:rgba(0,0,0,1);
+  color:#0b121e;
   font-size: 40px;
   font-family: 'Sacramento', cursive;
   padding: 5px 50px 10px 5px;
@@ -70,17 +71,17 @@ h5 {
 }
 a:link {
     text-decoration: none;
-    color: black;
+    color: #0b121e;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: #0b121e;
 }
 
 a:hover {
     text-decoration: underline;
-    color: black;
+    color: #0b121e;
 }
 
 
