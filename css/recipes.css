@@ -32,7 +32,6 @@ li /* for recipe here*/{
   padding: 0px 15px 0px 15px;
   font-weight: bold;
   font-size: 20px;
-  color: white;
   font-family: 'Lato', sans-serif;
 }
 
@@ -85,6 +84,9 @@ a:visited {
 a:hover {
     text-decoration: underline;
     color: black;
+}
+
+
 }
 
 .recipes {
