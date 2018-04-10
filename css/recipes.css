@@ -42,10 +42,10 @@ h1 {
   font-size: 65px;
   font-family: 'Pacifico', cursive;
   font-weight: lighter;
-  border-color: black;
   border: 0px;
-  padding: 0px -10px 0px 0px;
+  padding: 0px 0px 0px 0px;
   margin: 40px;
+  margin-top: -10px;
 }
 
 h2 {
