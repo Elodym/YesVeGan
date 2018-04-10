@@ -4,9 +4,8 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-h1{
+h1 {
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 40px;
   font-weight: bold;
   padding: 0 20px;
@@ -14,7 +13,7 @@ h1{
   font-family: auto;
 }
 ul {
-  background-color: #ffff1a;
+  background-color: #c7c9cc;
   padding: 10px;
   text-align: center;
   margin: 0;
@@ -32,7 +31,6 @@ h2 {
   font-weight: bold;
   text-align: center;
   line-height: 150px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   font-family: auto;
 }
 h3 {
@@ -40,8 +38,7 @@ h3 {
   text-align: center;
   margin: 40px 0 40px 0;
   text-decoration: none;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #272828;
   font-weight: bold;
   font-family: auto;
 }
@@ -84,4 +81,19 @@ b {
 .btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
+}
+
+a:link {
+    text-decoration: none;
+    color: #272828;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #272828;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #272828;
 }
