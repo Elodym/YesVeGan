@@ -1,0 +1,16 @@
+.jumbotron {
+  background-image: url("../images/fruit-and-veg.jpg");
+  padding: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+li {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  font-family: 'PT Serif', serif;
+}
