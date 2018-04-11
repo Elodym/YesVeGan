@@ -1,14 +1,35 @@
 
+body {
+  background-color: #CFDBC5;
+}
 
 a {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-decoration: none;
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 20px;
-  left: 10px;
+  color: black;
+
 }
+
+a:hover {
+  color: yellow;
+}
+
+ul {
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  word-spacing: 20px;
+
+
+}
+
+li {
+  font-size: 22px;
+  color: #008080;
+  display: inline;
+  font-family: Gamja Flower;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 
 img {
   position: relative;
@@ -27,10 +48,19 @@ h1 {
   padding: 0 20px;
   margin: 18px 0 18px 5px;
   font-family: auto;
-
 }
 
-dl {
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  font-family: Gamja Flower;
+  background-color: #228b22;
+  padding: 10px;
+  margin: 5px;
+}
+
+dl.shops {
   display: block;
   text-align: center;
   clear: left;
@@ -38,42 +68,31 @@ dl {
   padding: 30px;
   font-size: 18px;
 }
+
+dt a {
+  font-family: Gamja Flower;
+  font-size: 30px;
+  color: #228b22;
+
+}
 dd {
   text-align: center;
+  font-family: Lobster, cursive;
 }
-h2 {
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
-  font-family: 'PT Serif', serif;
-  background-color: #ffff1a;
-  padding: 10px;
-  text-transform: uppercase;
-  margin: 5px;
-}
+
+
+
 p {
   text-align: left;
   font-size: 18px;
   padding: 5px;
   margin-top: 5px;
+  font-family: Gamja Flower;
 }
 
-ul {
-  background-color: #ffff1a;
-  padding: 10px;
-  text-align: center;
-  margin-top: 15px;
-  padding-top: 15px;
-}
-li {
-  display: inline;
-  padding: 0px 15px 0px 15px;
-  font-weight: bold;
-  font-size: 22px;
-  color: black;
-  font-family: 'PT Serif', serif;
-}
 
+
+/*
 a {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-decoration: none;
@@ -83,14 +102,11 @@ a {
   top: 20px;
   left: 10px;
 }
-.form-inline {
-  padding: 20px;
-  margin: 10px;
-}
-.jumbotron {
-  background-image: url("../images/fruit-and-veg.jpg");
-  padding: 200px;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 600px;
+*/
+
+p.other {
+  display: block;
+  font-family: Lobster;
+
+
 }

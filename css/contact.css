@@ -6,11 +6,16 @@
   min-height: 600px;
 }
 
+.form-inline {
+  padding: 20px;
+  margin: 20px;
+}
+
 li {
   display: inline;
   padding: 0px 15px 0px 15px;
   font-weight: bold;
   font-size: 22px;
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: 'PT Serif', serif;
 }
