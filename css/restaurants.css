@@ -28,22 +28,16 @@ li {
   font-family: 'Sumana', serif;
 }
 h2 {
-  font-size: 65px;
-  color:  #3c434f;
-  text-align: center;
+  font-size: 110px;
+  color:  #f7f9fc;
+  text-align: right;
   line-height: 100px;
-  font-family: 'Libre Baskerville', serif;
-  padding: 15px 10px 10px 10x;
+  font-family: 'Sacramento', cursive;
+  padding: 5px 10px 10px 10x;
+  margin-top: 40px;
 
 }
-.titleboye {
-  background-color: rgba(255, 255, 255, 0.7);
-  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.5));
-  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.5));
-  padding: 0px 20px 10px 30px;
-  border: 0px solid white;
-  border-radius: 0px;
-}
+
 
 }
 
@@ -55,9 +49,9 @@ b {
   font-size: 21px;
 }
 #background {
-  background: url("../images/pebbles.jpg");
+  background: url("../images/brighton_background.jpg");
   background-size: cover;
-  height: 250px;
+  height: 400px;
   padding: 30px;
 }
 #intro {
