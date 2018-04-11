@@ -9,6 +9,7 @@
 .form-inline {
   padding: 20px;
   margin: 20px;
+  formpositon: bottom;
 }
 
 li {
@@ -18,4 +19,14 @@ li {
   font-size: 22px;
   color: rgb(0, 0, 0);
   font-family: 'PT Serif', serif;
+}
+
+button {
+  padding: 5px 20px 5px 20px;
+  margin: 10px;
+  font-family: Sumana, serif;
+  font-size: 15px;
+  background-color: #93DB70;
+  position: top;
+
 }
