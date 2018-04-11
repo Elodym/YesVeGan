@@ -13,7 +13,8 @@ h1 {
   font-family: 'Libre Baskerville', serif;
 }
 ul {
-  background-color: #f4f2e8;
+  background-color: rgba(244, 242, 232, 0.5);
+  opacity: 0.60;
   padding: 10px;
   text-align: center;
   margin: 0;
@@ -27,14 +28,25 @@ li {
   font-family: 'Sumana', serif;
 }
 h2 {
-  font-size: 105px;
-  color: #ffffff;
+  font-size: 65px;
+  color:  #3c434f;
   text-align: center;
-  line-height: 140px;
-  font-family: 'Sacramento', cursive;
-  padding: 15px 0px 0px 310px;
+  line-height: 100px;
+  font-family: 'Libre Baskerville', serif;
+  padding: 15px 10px 10px 10x;
 
 }
+.titleboye {
+  background-color: rgba(255, 255, 255, 0.7);
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.5));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.5));
+  padding: 0px 20px 10px 30px;
+  border: 0px solid white;
+  border-radius: 0px;
+}
+
+}
+
 h3 {
   font-size: 32px;
   margin-bottom: 20px;
@@ -43,10 +55,10 @@ b {
   font-size: 21px;
 }
 #background {
-  background: url("../images/brighton_background.jpg");
+  background: url("../images/pebbles.jpg");
   background-size: cover;
-  height: 400px;
-  padding: 20px;
+  height: 250px;
+  padding: 30px;
 }
 #intro {
   font-size: 23px;
@@ -67,3 +79,18 @@ b {
   float: right;
   margin-left: 20px;
 }
+
+a:link {
+    text-decoration: none;
+    color: #232426;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #232426;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #232426;
+  }
