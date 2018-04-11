@@ -11,7 +11,7 @@
   gtag('config', 'UA-117167356-1');
 </script>
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js">
+  <script src="../js/jquery-3.3.1.min.js"></script>
 
   <title>YesVeGan contact</title>
   <link href='../css/bootstrap.min.css' rel='stylesheet'>
@@ -33,15 +33,12 @@
 </ul>
 
 
-<div class='jumbotron'>
-  
-  <script>alert("YesVeGan!")
-   $("button").on("click", function() {
-     alert("YesVeGan!")
-   });
- </script>
 
-    <button>Tell us if you like our website (Click here!)</button>
+<div class='jumbotron'>
+
+
+<button class="heartwrap"><div class="heart"></div>Click here if you like our site </button>
+
 
   <div class="container">
 </br>
@@ -50,27 +47,35 @@
 </br>
 </br>
 
+
   <div>
      <form class="form-inline">
-      <div class="form-group">
-        <!--
-    <label for="exampleInputName2">your name</label>
-  -->
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="your name">
-  </div>
-    <div class="form-group">
-  <!--
-  <label for="exampleInputEmail2">your email</label>
-  -->
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="your email">
-    </div>
-    <button type="submit" class="btn btn-default">Ask us a vegan question</button>
-    </form>
-  </div>
+       <div class="form-group">
+         <input type="text" class="form-control" id="exampleInputName2" placeholder="your name">
+       </div>
+       <div class="form-group">
+         <input type="email" class="form-control" id="exampleInputEmail2" placeholder="your email">
+       </div>
+     <button type="submit" class="btn btn-default">Ask us a vegan question</button>
+     </form>
+     </div>
 
+
+<script>
+ $("button") .on("click", function() {
+   alert("YesVeGan!")
+ });
+ </script>
+ 
+ <script>
+ $("button.heartwrap") .on("click", function() {
+   alert("YesVeGan!")
+ });
+</script>
 
 
 </div>
 
+</div>
 </body>
 </html>
