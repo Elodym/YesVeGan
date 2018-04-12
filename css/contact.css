@@ -42,7 +42,7 @@ li {
 button {
   padding: 5px 20px 5px 20px;
   margin: 0px 5px 0px 5px;
-  font-family: Gamja Flower;
+  font-family: 'Libre Baskerville', serif;
   font-size: 22px;
   color: white;
   background-color: #3B5E2B;
@@ -52,12 +52,12 @@ button {
 }
 
 #exampleInputName2 {
-  font-family: Gamja Flower;
+  font-family: 'Libre Baskerville', serif;
   font-size: 18px;
 }
 
 #exampleInputEmail2 {
-  font-family: Gamja Flower;
+  font-family: 'Libre Baskerville', serif;
   font-size: 18px;
 }
 
@@ -104,7 +104,7 @@ button {
 
 
 .heart:after {
-    left: 0;
+    left: 0px;
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -120,9 +120,9 @@ button {
 
 .heartwrap{
 	position:relative;
-	width: 300px;
+	width: 350px;
 	height: 70px;
-	padding:0;
+	padding:0px;
 	margin-left: 100px;
 	margin-top: 50px;
 	border:1px solid #000;
