@@ -34,6 +34,8 @@ img {
   overflow: scroll;
 
 }
+
+
 h1 {
   font-family: Sacramento, cursive;
   font-size: 80px;
@@ -51,9 +53,6 @@ h2 {
 
 }
 
-.shops {
-
-}
 
 dl.shops {
   display: block;
@@ -74,7 +73,6 @@ dd {
   text-align: center;
   font-family: Sumana, cursive;
 }
-
 
 
 p {
