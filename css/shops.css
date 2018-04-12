@@ -78,7 +78,7 @@ dd {
 
 
 p {
-  text-align: left;
+  text-align: center;
   font-size: 18px;
   padding: 5px;
   margin-top: 5px;
@@ -89,5 +89,17 @@ p {
 
 p.other {
   display: block;
+  padding: 3px;
+  margin: 3px;
 
+}
+
+p.other a {
+    color:  #228b22;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+p.other a:hover {
+  text-decoration: underline;
 }
