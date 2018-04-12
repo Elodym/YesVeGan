@@ -1,10 +1,10 @@
 .jumbotron {
   background-image: url("../images/fruit-and-veg.jpg");
-  padding: 200px;
+  padding: 100px;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100px;
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .form-inline {
@@ -16,15 +16,16 @@
 }
 
 ul {
+  text-decoration: none;
   margin-top: 30px;
   text-align: center;
-  color: #A9A9A9;
+  color: #A8A8A8;
 }
 
 
 a {
-  color: #A9A9A9;
   hover: underline;
+  color: #A8A8A8;
 
 }
 
@@ -34,7 +35,8 @@ li {
   padding: 0px 15px 0px 15px;
   font-size: 22px;
   font-family: 'Sumana', serif;
-  color: #A9A9A9;
+  color: #A8A8A8;
+
 }
 
 button {
