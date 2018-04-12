@@ -1,33 +1,31 @@
 
-body {
-  background-color: #CFDBC5;
-}
 
 a {
   text-decoration: none;
-  color: black;
+  color: #A8A8A8;
 
 }
 
 a:hover {
-  color: yellow;
+  text-decoration: underline;
 }
+
 
 ul {
   padding: 0px 15px 0px 15px;
   text-align: center;
   word-spacing: 20px;
 
-
 }
 
 li {
   font-size: 22px;
-  color: #008080;
   display: inline;
-  font-family: Gamja Flower;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: Sumana, serif;
+}
+
+#container {
+
 }
 
 
@@ -37,47 +35,48 @@ img {
   height: 180px;
   margin-bottom: 0.5em;
   margin-right: 0.5%;
+  overflow: scroll;
 
 }
-
 h1 {
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 40px;
-  font-weight: bold;
-  padding: 0 20px;
-  margin: 18px 0 18px 5px;
-  font-family: auto;
+  font-family: Sacramento, cursive;
+  font-size: 80px;
+  text-align: center;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
-  font-family: Gamja Flower;
+  text-align: center;
+  font-family: Libre Baskerville;
   background-color: #228b22;
   padding: 10px;
   margin: 5px;
+
+}
+
+.shops {
+
 }
 
 dl.shops {
   display: block;
   text-align: center;
   clear: left;
-  background-color: white;
+  background-color: #CFDBC5;
   padding: 30px;
   font-size: 18px;
 }
 
 dt a {
-  font-family: Gamja Flower;
+  font-family: Sumana, serif;
   font-size: 30px;
   color: #228b22;
 
 }
 dd {
   text-align: center;
-  font-family: Lobster, cursive;
+  font-family: Sumana, cursive;
 }
 
 
@@ -87,26 +86,12 @@ p {
   font-size: 18px;
   padding: 5px;
   margin-top: 5px;
-  font-family: Gamja Flower;
+  font-family: Sumana, serif;
 }
 
 
-
-/*
-a {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  text-decoration: none;
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 20px;
-  left: 10px;
-}
-*/
 
 p.other {
   display: block;
-  font-family: Lobster;
-
 
 }

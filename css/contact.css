@@ -1,9 +1,10 @@
 .jumbotron {
   background-image: url("../images/fruit-and-veg.jpg");
   padding: 200px;
-  background-size: cover;
   background-attachment: fixed;
-  min-height: 600px;
+  background-size: cover;
+  min-height: 100px;
+  max-height: 300px;
 }
 
 .form-inline {
@@ -17,11 +18,13 @@
 ul {
   margin-top: 30px;
   text-align: center;
+  color: #A9A9A9;
 }
 
 
 a {
-  color: black;
+  color: #A9A9A9;
+  hover: underline;
 
 }
 
@@ -29,22 +32,31 @@ li {
   display: inline;
   text-align: center;
   padding: 0px 15px 0px 15px;
-  font-weight: bold;
   font-size: 22px;
-  color: rgb(0, 0, 0);
-  font-family: 'PT Serif', serif;
+  font-family: 'Sumana', serif;
+  color: #A9A9A9;
 }
 
 button {
   padding: 5px 20px 5px 20px;
-  margin: 10px 10px 20px 10px;
-  font-family: cursive;
-  font-size: 20px;
+  margin: 0px 5px 0px 5px;
+  font-family: Gamja Flower;
+  font-size: 22px;
   color: white;
   background-color: #3B5E2B;
   border-style: none;
   align-items: right;
 
+}
+
+#exampleInputName2 {
+  font-family: Gamja Flower;
+  font-size: 18px;
+}
+
+#exampleInputEmail2 {
+  font-family: Gamja Flower;
+  font-size: 18px;
 }
 
 .heart {
@@ -111,8 +123,46 @@ button {
 	padding:0;
 	margin-left: 100px;
 	margin-top: 50px;
-
-
 	border:1px solid #000;
 	background: #3B5E2B;
+}
+
+#container {
+  background-color: #ddd;
+}
+
+#social-buttons {
+  text-align: right;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+#social-buttons a:link {
+      text-decoration: none;
+      color: white;
+
+}
+#social-buttons a:visited {
+      text-decoration: none;
+      color: white;
+}
+#social-buttons a:hover {
+      text-decoration: none;
+      color: white;
+}
+.row {
+  text-align: center;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
 }
