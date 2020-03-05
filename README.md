@@ -6,14 +6,14 @@ We made a simple website as part of the CodeFirst: Girls 10-week course, as our 
 
 Each file is a different tab.
 
-About: Elodie
+* About: Elodie
 
-Restaurants: Elodie
+* Restaurants: Elodie
 
-Shops: Allison
+* Shops: Allison
 
-Recipes: Sophia
+* Recipes: Sophia
 
-Contact: Allison
+* Contact: Allison
 
 The website is hosted here: https://albalzero.github.io/YesVeGan/
